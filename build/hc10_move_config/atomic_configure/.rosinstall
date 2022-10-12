@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/etudiant/catkin_ws/devel/.private/hc10_move_config/setup.sh

@@ -1,0 +1,1 @@
+/home/etudiant/catkin_ws/devel/.private/hc10_move_config/lib/pkgconfig/hc10_move_config.pc

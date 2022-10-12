@@ -1,0 +1,1 @@
+/home/etudiant/catkin_ws/devel/.private/hc10_move_config/share/hc10_move_config/cmake/hc10_move_configConfig-version.cmake
