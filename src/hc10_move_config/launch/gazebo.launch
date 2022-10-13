@@ -14,6 +14,7 @@
 
   <!-- send robot urdf to param server -->
   <param name="robot_description" command="xacro  '$(find motoman_hc10_support)/urdf/hc10.xacro'" />
+  <!--<param name="robot_description" command="xacro '$(find motoman_hc10_support)/robots/hc10_arm.urdf.xacro'"/>-->
 
   <!-- unpause only after loading robot model -->
   <arg name="unpause" value="$(eval '' if arg('paused') else '-unpause')" />
