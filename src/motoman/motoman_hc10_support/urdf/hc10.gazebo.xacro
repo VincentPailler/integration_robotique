@@ -18,6 +18,7 @@
         <xacro:arm_gazebo link="${prefix}tool0"/>
         <xacro:arm_gazebo link="${prefix}kinect_camera"/>
     </xacro:macro>
+<<<<<<< HEAD
 
     <gazebo reference="camera_depth_frame">
         <sensor name="kinect_camera" type="depth">
@@ -56,3 +57,6 @@
         </sensor>
     </gazebo>
 </robot>
+=======
+</robot>
+>>>>>>> 5d0ba9e906be7b4aecf8c07bfbd5c19eb73b719e
