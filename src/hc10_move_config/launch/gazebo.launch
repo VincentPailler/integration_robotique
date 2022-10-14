@@ -14,7 +14,6 @@
 
   <!-- send robot urdf to param server -->
   <param name="robot_description" command="xacro  '$(find motoman_hc10_support)/urdf/hc10.xacro'" />
-  <!--<param name="robot_description" command="xacro '$(find motoman_hc10_support)/robots/hc10_arm.urdf.xacro'"/>-->
 
   <!-- unpause only after loading robot model -->
   <arg name="unpause" value="$(eval '' if arg('paused') else '-unpause')" />
@@ -29,5 +28,7 @@
   <node name="gazebo_controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" args="joint_state_controller" />
   <!-- Load ROS controllers -->
   <include file="$(dirname)/ros_controllers.launch"/>
+
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name= "tf_pub"/>
 
 </launch>

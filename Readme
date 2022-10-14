@@ -10,10 +10,10 @@ catkin build
 . devel/setup.bash
 
 
-Dans un terminal lancer Rviz avec la commande suivante:
+Dans un terminal lancez Rviz avec la commande suivante:
 roslaunch hc10_move_config demo.launch
 
-dans l'autre terminal, lancer le script python :
+dans l'autre terminal, lancez le script python :
 
 python3 src/trajectoire.py
 
@@ -42,3 +42,9 @@ box_pose.pose.position.y = 0.45
 box_pose.pose.position.z = 1 
 box_name = "poto1"
 scene.add_box(box_name, box_pose, size=(0.2, 0.2, 2))
+
+Pour ajouter gazebo, dans un terminal lancez la commande suivante:
+roslaunch hc10_move_config demo_gazebo.launch
+
+
+

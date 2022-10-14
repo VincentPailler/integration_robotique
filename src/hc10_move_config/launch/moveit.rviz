@@ -79,6 +79,10 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          kinect_camera:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           link_1_s:
             Alpha: 1
             Show Axes: false
@@ -172,6 +176,10 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          kinect_camera:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           link_1_s:
             Alpha: 1
             Show Axes: false
@@ -267,5 +275,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1291
-  X: 172
-  Y: 59
+  X: 105
+  Y: 27
