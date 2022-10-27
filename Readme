@@ -1,6 +1,6 @@
-Il faut git clone mais on sait pas faire comme ça on oubliera pas
+git clone https://github.com/VincentPailler/integration_robotique.git
 
-ouvrir deux terminaux
+Ouvrir deux terminaux
 
 cd catkin_ws
 
@@ -9,15 +9,12 @@ Faire les commandes suivantes dans les 2 terminaux
 catkin build
 . devel/setup.bash
 
-
 Dans un terminal lancez Rviz avec la commande suivante:
 roslaunch hc10_move_config demo.launch
 
 dans l'autre terminal, lancez le script python :
 
 python3 src/trajectoire.py
-
-
 
 Modification des points à atteindre par le robot:
 
