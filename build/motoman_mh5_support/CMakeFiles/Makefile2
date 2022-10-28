@@ -411,8 +411,8 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_motoman_mh5_support_roslaunch-check_test_launch_test.xml.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_motoman_mh5_support_roslaunch-check_test_launch_test.xml.dir/all: CMakeFiles/clean_test_results_motoman_mh5_support.dir/all
 CMakeFiles/_run_tests_motoman_mh5_support_roslaunch-check_test_launch_test.xml.dir/all: CMakeFiles/tests.dir/all
+CMakeFiles/_run_tests_motoman_mh5_support_roslaunch-check_test_launch_test.xml.dir/all: CMakeFiles/clean_test_results_motoman_mh5_support.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_motoman_mh5_support_roslaunch-check_test_launch_test.xml.dir/build.make CMakeFiles/_run_tests_motoman_mh5_support_roslaunch-check_test_launch_test.xml.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_motoman_mh5_support_roslaunch-check_test_launch_test.xml.dir/build.make CMakeFiles/_run_tests_motoman_mh5_support_roslaunch-check_test_launch_test.xml.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/etudiant/catkin_ws/build/motoman_mh5_support/CMakeFiles --progress-num= "Built target _run_tests_motoman_mh5_support_roslaunch-check_test_launch_test.xml"

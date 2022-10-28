@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/etudiant/catkin_ws/devel/.private/motoman_resources:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/etudiant/catkin_ws/devel/.private/motoman_resources/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/etudiant/catkin_ws/devel/.private/motoman_resources/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/etudiant/catkin_ws/build/motoman_resources'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/etudiant/catkin_ws/devel/.private/motoman_resources/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/etudiant/catkin_ws/src/motoman/motoman_resources:$ROS_PACKAGE_PATH"

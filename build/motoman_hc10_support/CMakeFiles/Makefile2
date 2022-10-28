@@ -471,9 +471,9 @@ CMakeFiles/doxygen.dir/clean:
 # Target rules for target CMakeFiles/run_tests_motoman_hc10_support_roslaunch-check.dir
 
 # All Build rule for target.
-CMakeFiles/run_tests_motoman_hc10_support_roslaunch-check.dir/all: CMakeFiles/run_tests_motoman_hc10_support_roslaunch-check_test_roslaunch_test_hc10dt_b10.xml.dir/all
 CMakeFiles/run_tests_motoman_hc10_support_roslaunch-check.dir/all: CMakeFiles/run_tests_motoman_hc10_support_roslaunch-check_test_roslaunch_test_hc10dt.xml.dir/all
 CMakeFiles/run_tests_motoman_hc10_support_roslaunch-check.dir/all: CMakeFiles/run_tests_motoman_hc10_support_roslaunch-check_test_roslaunch_test_hc10.xml.dir/all
+CMakeFiles/run_tests_motoman_hc10_support_roslaunch-check.dir/all: CMakeFiles/run_tests_motoman_hc10_support_roslaunch-check_test_roslaunch_test_hc10dt_b10.xml.dir/all
 	$(MAKE) -f CMakeFiles/run_tests_motoman_hc10_support_roslaunch-check.dir/build.make CMakeFiles/run_tests_motoman_hc10_support_roslaunch-check.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests_motoman_hc10_support_roslaunch-check.dir/build.make CMakeFiles/run_tests_motoman_hc10_support_roslaunch-check.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/etudiant/catkin_ws/build/motoman_hc10_support/CMakeFiles --progress-num= "Built target run_tests_motoman_hc10_support_roslaunch-check"
@@ -582,9 +582,9 @@ CMakeFiles/_run_tests_motoman_hc10_support.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_motoman_hc10_support_roslaunch-check.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_motoman_hc10_support_roslaunch-check.dir/all: CMakeFiles/_run_tests_motoman_hc10_support_roslaunch-check_test_roslaunch_test_hc10dt.xml.dir/all
 CMakeFiles/_run_tests_motoman_hc10_support_roslaunch-check.dir/all: CMakeFiles/_run_tests_motoman_hc10_support_roslaunch-check_test_roslaunch_test_hc10dt_b10.xml.dir/all
 CMakeFiles/_run_tests_motoman_hc10_support_roslaunch-check.dir/all: CMakeFiles/_run_tests_motoman_hc10_support_roslaunch-check_test_roslaunch_test_hc10.xml.dir/all
+CMakeFiles/_run_tests_motoman_hc10_support_roslaunch-check.dir/all: CMakeFiles/_run_tests_motoman_hc10_support_roslaunch-check_test_roslaunch_test_hc10dt.xml.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_motoman_hc10_support_roslaunch-check.dir/build.make CMakeFiles/_run_tests_motoman_hc10_support_roslaunch-check.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_motoman_hc10_support_roslaunch-check.dir/build.make CMakeFiles/_run_tests_motoman_hc10_support_roslaunch-check.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/etudiant/catkin_ws/build/motoman_hc10_support/CMakeFiles --progress-num= "Built target _run_tests_motoman_hc10_support_roslaunch-check"
